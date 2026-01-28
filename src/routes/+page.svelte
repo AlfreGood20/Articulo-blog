@@ -4,19 +4,19 @@
             <a href="#inicio" class="p-2 hover:bg-gray-200 rounded">Inicio</a>
         </li>
         <li>
-            <a href="#example" class="p-2 hover:bg-gray-200 rounded">Concepto</a>
+            <a href="#" class="p-2 hover:bg-gray-200 rounded">Concepto</a>
         </li>
         <li>
-            <a href="#objetivos" class="p-2 hover:bg-gray-200 rounded">Objetivos</a>
+            <a href="#" class="p-2 hover:bg-gray-200 rounded">Objetivos</a>
         </li>
         <li>
-            <a href="#usos" class="p-2 hover:bg-gray-200 rounded">Usos</a>
+            <a href="#" class="p-2 hover:bg-gray-200 rounded">Usos</a>
         </li>
         <li>
-            <a href="#arquitectura_bd" class="p-2 hover:bg-gray-200 rounded">Arquitectura de una bd</a>
+            <a href="#" class="p-2 hover:bg-gray-200 rounded">Arquitectura de una bd</a>
         </li>
         <li>
-            <a href="#arquitectura_sgbd" class="p-2 hover:bg-gray-200 rounded">Arquitectura del SGBD</a>
+            <a href="#" class="p-2 hover:bg-gray-200 rounded">Arquitectura del SGBD</a>
         </li>
     </ul>
 </nav>
