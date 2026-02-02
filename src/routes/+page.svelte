@@ -38,7 +38,7 @@
         </li>
         <hr>
         <li>
-            <a href='#' on:click={() => alert("PROXIMAMENTE MAS INFORMACIÓN")}  class=" p-2 hover:bg-gray-200 rounded">Más información</a>
+            <a href='#inicio' on:click={() => alert("PROXIMAMENTE MAS INFORMACIÓN")}  class=" p-2 hover:bg-gray-200 rounded">Más información</a>
         </li>
     </ul>
 </nav>
