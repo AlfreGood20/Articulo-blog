@@ -2,7 +2,7 @@
     let abierto = false;
 </script>
 
-<nav class="w-full p-2 md:p-0 shadow-lg font-bold">
+<nav class="w-full md:p-0 shadow-lg font-bold">
 
     <button class="md:hidden p-2 cursor-pointer" on:click={() => (abierto = !abierto)} aria-label="Abrir menú">
         
@@ -38,13 +38,13 @@
         </li>
         <hr>
         <li>
-            <a href='#inicio' on:click={() => alert("PROXIMAMENTE MAS INFORMACIÓN")}  class=" p-2 hover:bg-gray-200 rounded">Más información</a>
+            <a href='#' on:click={() => alert("PROXIMAMENTE MAS INFORMACIÓN")}  class=" p-2 hover:bg-gray-200 rounded">Más información</a>
         </li>
     </ul>
 </nav>
 
 <!--NOTAS Y INFORMCION-->
-<div class="flex-1 md:flex gap-6 flex-row md:h-[530px]">
+<div class="flex-1 md:flex gap-2 flex-row md:h-[530px]">
 
     <section class="flex-1 md:h-130 bg-white shadow-md m-2 md:mt-5 md:ml-6 rounded border border-gray-300 font-['Times_New_Roman'] overflow-y-auto">
 
@@ -66,6 +66,8 @@
                     logrando independencia, seguridad y facilidad de mantenimiento.
                 </p>
 
+                <hr class="my-2 mx-4  border-gray-300">
+
                 <h3 id="concepto" class="font-bold text-lg mt-4">¿Qué es una base de datos?</h3>
                 <p>
                     Una base de datos es una colección estructurada de datos. Se almacena y
@@ -79,6 +81,8 @@
                     <li>El sistema de gestión de bases de datos (SGBD) que facilita el acceso y la manipulación de los datos</li>
                     <li>La aplicación de base de datos que sirve como interfaz entre los usuarios y la base de datos.</li>
                 </ol>
+
+                <hr class="my-2 mx-4  border-gray-300">
 
                 <h3 id="objetivos" class="font-bold text-lg mt-4">Objetivos</h3>
 
@@ -140,6 +144,8 @@
                     </li>
                 </ol>
 
+                <hr class="my-2 mx-4  border-gray-300">
+
                 <h3 id="artBD" class="font-bold mt-5 text-lg">Niveles de la arquitectura de una base de datos</h3>
                 <p>La arquitectura de bases de datos se organiza en tres niveles, conocidos como la arquitectura de tres esquemas (ANSI/SPARC):</p>
 
@@ -198,6 +204,8 @@
                 </ol>
 
                 <p class="text-center underline font-bold mt-2">La importancia de esta interdependencia de datos está en que permite que los sistemas sean más flexibles, escalables y fáciles de mantener.</p>
+
+                <hr class="my-2 mx-4  border-gray-300">
 
                 <h3 id="artSGBD" class="font-bold mt-5 text-lg">Arquitectura de un SGBD (Sistema Gestor de Bases de Datos)</h3>
                 <div class="flex justify-center mt-2">
@@ -275,6 +283,8 @@
                     </li>
                 </ol>
 
+                <hr class="my-2 mx-4  border-gray-300">
+
                 <h3 class="font-bold text-lg mt-8">Fuentes Bibliograficas</h3>
                 <ul class="list-disc ml-6 mt-2 text-sm">
                     <li>
@@ -321,46 +331,46 @@
         <h2 class="mt-3 ml-3 font-semibold text-lg">Universidad</h2>
         <div class="flex flex-col items-center justify-center">
             <img src="/imgs/ITVH.jpg" alt="Logo del instituto" class="w-20 h-20 rounded mb-2"/>
-            <a class="text-center" href="https://villahermosa.tecnm.mx/">Instituto Tecnológico de Villahermosa</a>
+            <a class="text-center hover:underline hover:text-blue-700" href="https://villahermosa.tecnm.mx/">Instituto Tecnológico de Villahermosa</a>
         </div>
         <hr class="my-2 mx-4 border-gray-300">
 
         <h2 class="mt-2 ml-3 font-semibold text-lg">Autores</h2>
-        <ul>
-            <li class="m-3 text-sm">
+        <ul class="md:text-xs text-md">
+            <li class="m-3">
                 <label for="lider">López De La Cruz José Alfredo</label>
             </li>
-            <li class="m-3 text-sm">
-                <label for="lider">Silvan Suarez Omar</label>
+            <li class="m-3">
+                <label for="compañero">Silvan Suarez Omar</label>
             </li>
-            <li class="m-3 text-sm">
-                <label for="lider">Alfonso De La Cruz Emily</label>
+            <li class="m-3">
+                <label for="compañero">Alfonso De La Cruz Emily</label>
             </li>
-            <li class="m-3 text-sm">
-                <label for="lider">Lanestosa Gómez Fernado</label>
+            <li class="m-3">
+                <label for="compañero">Lanestosa Gómez Fernado</label>
             </li>
-            <li class="m-3 text-sm">
-                <label for="lider">Velázquez Izquierdo Misael</label>
+            <li class="m-3">
+                <label for="compañero">Velázquez Izquierdo Misael</label>
             </li>
         </ul>
         <hr class="my-2 mx-4  border-gray-300">
 
         <h2 class="mt-2 ml-3 font-semibold text-lg">Correos</h2>
-        <ul>
-            <li class="m-3 text-sm">
+        <ul class="md:text-xs text-md">
+            <li class="mt-2 ml-3">
                 <p>L24300777@villahermosa.tecnm.mx</p>
             </li>
-            <li class="m-3 text-sm">
-                <p></p>
+            <li class="mt-2 ml-3">
+                <p>L24300841@villahermosa.tecnm.mx</p>
             </li>
-            <li class="m-3 text-sm">
-                <p></p>
+            <li class="mt-2 ml-3">
+                <p>L42300690@villahermosa.tecnm.mx</p>
             </li>
-            <li class="m-3 text-sm">
-                <p></p>
+            <li class="mt-2 ml-3">
+                <p>L24300772@villahermosa.tecnm.mx</p>
             </li>
-            <li class="m-3 text-sm">
-                <p></p>
+            <li class="mt-2 ml-3">
+                <p>L24300856@villahermosa.tecnm.mx</p>
             </li>
         </ul>
     </section>
