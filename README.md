@@ -1,42 +1,13 @@
-# sv
+# Articulo Blog Escolar
+- Hecho con sveltekit
+- Dependencia usada adapter-static y tailwindcss para estilos
+- Host utilizada render.com
+- Ver pagina <a href="https://blog-itvh.onrender.com/">VER WEB</a>
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+# Imagenes
+<img width="1340" height="600" alt="image" src="https://github.com/user-attachments/assets/68c60977-5792-4353-8f3e-e06fd23689a2" />
+<hr>
+<img width="1345" height="594" alt="image" src="https://github.com/user-attachments/assets/dab8fe7a-d37b-4ac7-a269-c728f4bad154" />
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv create --template minimal --types jsdoc --install npm blog
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+<hr>
+Ultima actualizacion 02/02/26
